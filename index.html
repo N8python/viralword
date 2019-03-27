@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viral Word</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <section id="inputForm">
+        <h1>Viral Word Simulator</h1>
+        <p>Enter a word, get a celebrity to promote it across twitter, and see how influential it becomes!
+        </p>
+        <p>Enter your word:</p>
+        <input type="text">
+        <p>Pick a celebrity to promote your word:</p>
+        <select name="celeb">
+        <option>Katy Perry</option>
+        <option>Barack Obama</option>
+        <option>Justin Bieber</option>
+        <option>Taylor Swift</option>
+        <option>Lady Gaga</option>
+        <option>Donald Trump</option>
+        <option>Selena Gomez</option>
+        <option>Britney Spears</option>
+        <option>Bill Gates</option>x
+        </select>
+        <br>
+        <br>
+        <button type="submit">Simulate Your Word</button>
+    </section>
+    <div id="views" hidden>
+        <canvas id="america" width="600px" height="400px"></canvas>
+        <p id="totalViews">Total Views: 0</p>
+        <p id="result"></p>
+    </div>
+    <img src="america.jpeg" hidden>
+    <script src="main.js"></script>
+</body>
+
+</html>

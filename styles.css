@@ -1,0 +1,15 @@
+body {
+    background-color: blue;
+    color: white;
+    font: 30px cursive;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+button {
+    padding: 10px;
+}
